@@ -174,6 +174,16 @@ header{
     margin-left: 0px;
     margin-right: 0px;
 }
+.corona{
+    font-family: 'Oswald', sans-serif;
+    color: #50658e; 
+    /* margin-left:30px; */
+}
+@media only screen and (max-width:600){
+    .corona{
+        margin-left: -9px;
+    }
+}
 
 .statistics{
     margin-top: 28px;
@@ -228,6 +238,11 @@ header{
 }
 .about .list-group-item {
     text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+    .about .ab{
+        text-align: center;
+    }
 }
 
 /* -------------------------------------transmision----------------------------------------------------- */
